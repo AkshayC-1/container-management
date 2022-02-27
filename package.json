@@ -1,0 +1,15 @@
+{
+  "name": "container-management",
+  "productName": "container-management",
+  "version": "1.0.0",
+  "description": "Application to manage containers",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron ./src"
+  },
+  "keywords": [],
+  "author": "Akshay",
+  "devDependencies": {
+    "electron": "15.3.0"
+  }
+}

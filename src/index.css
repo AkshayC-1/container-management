@@ -1,0 +1,114 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  width:100%;
+  height:100%;
+  margin: 0;
+  background-color: #EEEEEE;
+}
+
+.operation-panel{
+  background-color: #787A91;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 21;
+}
+
+.operation{
+  overflow: hidden;
+  margin-top: 20%;
+  border:1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.content-panel{
+  grid-column-start: 4;
+  grid-column-end: 21;
+  grid-row-start: 1;
+  grid-row-end: 21;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td{
+  text-align: center;
+}
+
+.modal{
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.294);
+}
+
+.modal-content{
+  position: relative;
+  background-color:#faf3dd;
+  max-height: 60%;
+  overflow-y: auto;
+  height: 50%;
+  width: 50%;
+}
+
+.circular-button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.green-background {
+  background-color: #04AA6D;
+}
+
+.red-background{
+  background-color: rgba(255, 0, 0, 0.76);
+}
+
+.port-list-container{
+  max-height: 30%;
+  overflow-y: auto;
+}
+
+.env-var-list-container{
+  max-height: 30%;
+  overflow-y: auto;
+}
+
+.image-run-buttons{
+  position: absolute;
+  bottom: 1%;
+  left: 30%;
+}
+
+.image-list-div{
+  max-height: 80%;
+  height: 80%;
+  overflow-y: auto;
+}
+
+.container-list-div{
+  max-height: 80%;
+  height: 80%;
+  overflow-y: auto;
+}

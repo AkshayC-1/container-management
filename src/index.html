@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script defer src="./render.js"></script>
+        <script defer src="./image-operations.js"></script>
+    </head>
+    <body onload="renderContainerList()">
+        <div class="container">   
+            <div class="operation-panel">
+                <button class="operation" onclick="renderImageListHTML()">Images</button>
+                <button class="operation" onclick="renderContainerList()">Containers</button>
+            </div>
+            <div class="content-panel" id="content"></div>
+            <div class="modal" id="modal-container"></div>
+        </div>
+    </body>
+</html>
