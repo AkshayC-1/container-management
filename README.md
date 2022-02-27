@@ -14,3 +14,9 @@ This is an Electron js application for managing the docker containers.
   2. `cd container-management`
   3. Install the dependencies : `npm install`
   4. Run the application : `npm start`
+
+#### Note: 
+``` 
+This is an experimental project.
+NodeIntegration is enabled and ContextIsolation is disabled.
+```
